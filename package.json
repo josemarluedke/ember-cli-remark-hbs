@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-remark",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Allow compiling from markdown files to Ember handlebars templates using Remark",
   "keywords": [
     "ember-addon"
   ],
