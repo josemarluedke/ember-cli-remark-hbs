@@ -3,7 +3,7 @@
 ## Installation
 
 * `git clone <repository-url>`
-* `cd ember-cli-remark`
+* `cd ember-cli-remark-hbs`
 * `yarn install`
 
 ## Linting

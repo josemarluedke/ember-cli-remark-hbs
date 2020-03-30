@@ -5,7 +5,7 @@ module.exports = {
 
   setupPreprocessorRegistry(type, registry) {
     if (type === 'parent') {
-      let options = this.app.options['ember-cli-remark'];
+      let options = this.app.options['ember-cli-remark-hbs'];
       let RemarkTemplateCompiler = require('./lib/compiler');
       registry.add('template', new RemarkTemplateCompiler(options));
     }

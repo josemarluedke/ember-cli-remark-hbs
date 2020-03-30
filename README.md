@@ -1,4 +1,4 @@
-ember-cli-remark ![](https://github.com/josemarluedke/ember-cli-remark/workflows/CI/badge.svg)
+ember-cli-remark-hbs ![](https://github.com/josemarluedke/ember-cli-remark-hbs/workflows/CI/badge.svg)
 ==============================================================================
 
 Ember CLI Remark allows compiling from markdown files to Ember handlebars templates using [remark](https://github.com/remarkjs/remark).
@@ -17,7 +17,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install ember-cli-remark
+ember install ember-cli-remark-hbs
 ```
 
 Usage
@@ -29,7 +29,7 @@ app. To support this use case, you can pass an array of plugins in `ember-cli-bu
 ```js
 // ..
 const app = new EmberApp(defaults, {
-  'ember-cli-remark': {
+  'ember-cli-remark-hbs': {
     plugins: [
       require('remark-slug'),
       require('remark-autolink-headings'),
