@@ -72,6 +72,11 @@
     "edition": "octane"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "before": [
+      "ember-cli-htmlbars",
+      "ember-svg-jar",
+      "ember-code-snippet"
+    ]
   }
 }
